@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<!-- Bootstrap -->
+        <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+        
+<!-- Font  -->
+        <link rel="stylesheet" href="css/vendors/font-awesome.min.css">
+        <link rel="stylesheet" href="css/vendors/animate.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+<!-- owl Carousel -->
+        <link rel="stylesheet" href="css/vendors/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/vendors/owl.theme.default.min.css">
+        
+<!-- magnific-popup -->
+        <link rel="stylesheet" href="css/vendors/magnific-popup.css">
+        
+<!-- Slick -->
+        <link rel="stylesheet" href="css/vendors/slick.css">
+        
+<!-- Fancy Box -->    
+        <link rel="stylesheet" href="css/vendors/jquery.fancybox.min.css">
+
+<!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <title>Unifox</title>
+    </head>
+    <body>
+<!--Start Header-->
+    <video autoplay muted loop id="myVideo">
+  <source src="video/Titan%20-%20Multipurpose%20HTML5%20Template.mkv" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<section class="hotel">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-9">
+        <span class="border"></span>
+         <div class="row">
+             <div class="col-md-6">
+                 <div class="info wow bounceInDown ">
+                      <h1 class="">Hotel Booking</h1>
+                      <h2>For Groups & <br>Events</h2>
+                  </div>
+             </div>
+              <div class="col-md-6">
+                 <div class="info-right wow bounceInUp" data-wow-delay="0.4s">
+                      <h4>Make , Amend , Cancel An Existing Reservation By Phone</h4>
+                      <h5>Call <br>Email</h5>
+                      <h4>Visit Our Main Event Website</h4>
+                  </div>
+             </div>
+         </div>
+               <i class="fas fa-pause" id="pause" style="cursor:pointer;color:#fff;border:2px solid #ddd;padding:4px" onclick="myFunction()"></i>
+               <i class="fas fa-play" id="play" style="display:none;cursor:pointer;color:#fff;border:2px solid #ddd;padding:4px" onclick="myFunction()"></i>
+
+                      <span class="border"></span>
+                      <div class="footer">
+                          <p>Professional Group and Event Specialist </p>
+                      <span class="text-muted">Privacy Policy | Terma & Conditions </span>
+    
+                      </div>
+                      
+       </div>
+
+       <div class="col-md-3">
+       <div class="side">
+           <p class="side-header wow fadeInDown"><span class="text">All </span> of your events need taken care of one place try one dedicated event manager</p>
+           <span class="border-snd"></span>
+           <span class="text wow fadeIn" data-wow-delay="0.50s">What We Do</span>
+           <br>
+           <br>
+         <i class="fas fa-chevron-right wow fadeIn" data-wow-delay="1s"></i>
+          <hr>
+           <i class="fas fa-chevron-right wow fadeIn" data-wow-delay="1.2s"></i>
+            <i class="fas fa-grip-lines-vertical wow fadeIn" data-wow-delay="1.3s"></i>
+
+          <hr>
+           <i class="fas fa-chevron-right wow fadeIn" data-wow-delay="1.5s"></i>
+          <hr>
+           <i class="fas fa-chevron-right wow fadeIn" data-wow-delay="01.7s"></i>
+          <hr> 
+           <span class="text wow fadeIn" data-wow-delay="0.9s">Get Social With</span>
+           <br>
+          <div class="icons">
+             <i class="fab fa-facebook-f wow fadeInLeft" data-wow-delay="1.8s"></i>
+             <i class="fab fa-twitter wow fadeIn" data-wow-delay="1.8s"></i>
+             <i class="fab fa-instagram wow fadeInRight" data-wow-delay="1.8s"></i>  
+          </div>
+       </div>
+       </div>
+
+ </div>
+    </div>
+</section>
+        <script src="js/vendors/wow.min.js"></script>
+
+ <script>
+       new WOW().init();
+
+var video = document.getElementById("myVideo");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+      $("#play").hide();
+      $("#pause").show();
+  } else {
+    video.pause();
+    $("#pause").hide();
+    $("#play").show();
+
+  }
+}
+</script>
+       
+        
+        <script src="js/vendors/jquery-3.3.1.min.js"></script>
+        <script src="js/vendors/jquery.fancybox.min.js"></script>
+        <script src="js/vendors/wow.min.js"></script>
+        <script src="js/vendors/bootstrap.js"></script>
+        <script src="js/vendors/jquery.countTo.js"></script>
+        <script src="js/vendors/mixitup.min.js"></script>
+        <script src="js/vendors/owl.carousel.min.js"></script>
+        <script src="js/vendors/jquery.magnific-popup.min.js"></script>
+        <script src="js/vendors/slick.min.js"></script>
+        <script src="js/vendors/jquery.nicescroll.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
